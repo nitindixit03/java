@@ -15,17 +15,19 @@ public class ReverseArray {
     static void reverse(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
-        int temp;
 
         while (start < end) {
            
-            temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
+            swap(arr,start,end);
 
             start++;
             end--;
         }
+    }
+    static void swap(int[] arr,int start,int end){
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
     }
 }
 
