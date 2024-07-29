@@ -7,6 +7,7 @@ public class Armstrong {
         int num = in.nextInt();
         boolean ans = isArmstrong(num);
         System.out.println(ans);
+        in.close();
     }
 
     static boolean isArmstrong(int n){

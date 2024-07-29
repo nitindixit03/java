@@ -19,5 +19,6 @@ public class Largest {
         else{
             System.out.println("The lagrest number is " + c);
         }
+        in.close();
     }
 }

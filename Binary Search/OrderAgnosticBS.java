@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import java.util.Arrays;
-
 public class OrderAgnosticBS {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
@@ -20,6 +18,8 @@ public class OrderAgnosticBS {
 
         int ans = orderAgnosticBS(arr,target);
         System.out.println("index of "+ target + " at " + ans);
+
+        in.close();
     }
     static int orderAgnosticBS(int[] arr, int target){
         int start = 0;

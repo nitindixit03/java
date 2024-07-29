@@ -18,5 +18,6 @@ public class Countnums {
             num = num/10;
         }
         System.out.println(count);
+        in.close();
     }
 }

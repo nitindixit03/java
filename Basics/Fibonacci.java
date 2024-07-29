@@ -20,5 +20,6 @@ public class Fibonacci {
             a = b;
             b = sum;
         }
+        in.close();
     }
 }

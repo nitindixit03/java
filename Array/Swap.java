@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 import java.util.Arrays;
 public class Swap{
     public static void main(String[] args){

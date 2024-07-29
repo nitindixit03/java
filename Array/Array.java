@@ -32,7 +32,7 @@ public class Array{
         }
 
 
-
+        in.close();
 
     }
 }

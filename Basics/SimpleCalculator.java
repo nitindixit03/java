@@ -43,5 +43,6 @@ public class SimpleCalculator {
         if (validOperator) {
             System.out.println("The result is: " + result);
         }
+        in.close();
     }
 }

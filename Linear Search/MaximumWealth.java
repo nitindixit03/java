@@ -5,10 +5,10 @@ public class MaximumWealth {
             {4, 5, 6},
             {7, 8, 9}
         };
-        int ans = MaximumWealth(accounts);
+        int ans = maximumWealth(accounts);
         System.out.println(ans);
     }
-    public static int MaximumWealth(int[][] accounts){
+    public static int maximumWealth(int[][] accounts){
         int ans = Integer.MIN_VALUE;
         for(int person = 0; person<accounts.length; person++){
             int sum = 0;

@@ -30,8 +30,6 @@ public class MatrixInputOutput{
             System.out.println(Arrays.toString(matrix[i]));
         }
 
-
-
-
+        in.close();
     }
 }
