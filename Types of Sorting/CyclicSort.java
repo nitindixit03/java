@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class CyclicSort {
     public static void main(String[] args) {
-        int[] arr = {3,5,2,1,4};
+        int[] arr = {5,4,3,2,1};
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -18,10 +18,10 @@ public class CyclicSort {
             }
         }
     }
-        static void swap(int[] arr, int first, int second){
-            int temp = arr[first];
-            arr[first] = arr[second];
-            arr[second] = temp;
+        static void swap(int[] nums, int i, int CorrectIdx){
+            int temp = nums[i];
+            nums[i] = nums[CorrectIdx];
+            nums[CorrectIdx] = temp;
         
     }
 }
